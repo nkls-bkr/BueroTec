@@ -1,0 +1,105 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a
+{
+
+}
+
+a:hover
+{
+    color: #839788;
+    text-decoration: underline;
+}
+
+nav
+{
+}
+
+
+.navbar
+{
+    color: black;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background: #EEE0CB;
+    margin: auto;
+    line-height: 30px;
+}
+
+.nav-item-container
+{
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+.nav-item
+{
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.image-container
+{
+    text-align: center;
+    background-image: url("../ressources/img/company.jpg");
+    width: 100%;
+    height: 500px;
+    object-fit: scale-down;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img
+{
+}
+
+
+.info-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #BAA898;
+    width: 100%;
+    height: auto;
+}
+
+.info-container-item
+{
+    border-radius: 25px;
+    width: 400px;
+    background-color: white;
+    height: auto;
+    margin: 80px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.info-container-item img
+{
+    height: auto;
+    width: 100%;
+}
+
+.text-container
+{
+    width: 100%;
+    height: 100%;
+    background-color: #EEE0CB;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    object-fit: scale-down;
+}
